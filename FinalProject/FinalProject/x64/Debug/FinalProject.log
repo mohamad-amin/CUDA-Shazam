@@ -1,0 +1,24 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\mamin\source\repos\FinalProject\FinalProject>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -Xcompiler /openmp -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc141.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\mamin\source\repos\FinalProject\FinalProject\kernel.cu" 
+C:/Users/mamin/source/repos/FinalProject/FinalProject/kernel.cu(261): warning : non-POD class type passed through ellipsis
+C:/Users/mamin/source/repos/FinalProject/FinalProject/kernel.cu(408): warning : transfer of control bypasses initialization of:
+C:/Users/mamin/source/repos/FinalProject/FinalProject/kernel.cu(414): warning : transfer of control bypasses initialization of:
+C:/Users/mamin/source/repos/FinalProject/FinalProject/kernel.cu(420): warning : transfer of control bypasses initialization of:
+C:/Users/mamin/source/repos/FinalProject/FinalProject/kernel.cu(426): warning : transfer of control bypasses initialization of:
+C:/Users/mamin/source/repos/FinalProject/FinalProject/kernel.cu(432): warning : transfer of control bypasses initialization of:
+C:/Users/mamin/source/repos/FinalProject/FinalProject/kernel.cu(510): warning : variable "j" was declared but never referenced
+C:/Users/mamin/source/repos/FinalProject/FinalProject/kernel.cu(261): warning : non-POD class type passed through ellipsis
+C:/Users/mamin/source/repos/FinalProject/FinalProject/kernel.cu(408): warning : transfer of control bypasses initialization of:
+C:/Users/mamin/source/repos/FinalProject/FinalProject/kernel.cu(414): warning : transfer of control bypasses initialization of:
+C:/Users/mamin/source/repos/FinalProject/FinalProject/kernel.cu(420): warning : transfer of control bypasses initialization of:
+C:/Users/mamin/source/repos/FinalProject/FinalProject/kernel.cu(426): warning : transfer of control bypasses initialization of:
+C:/Users/mamin/source/repos/FinalProject/FinalProject/kernel.cu(432): warning : transfer of control bypasses initialization of:
+  kernel.cu
+C:/Users/mamin/source/repos/FinalProject/FinalProject/kernel.cu(141): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/mamin/source/repos/FinalProject/FinalProject/kernel.cu(180): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:/Users/mamin/source/repos/FinalProject/FinalProject/kernel.cu(209): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:/Users/mamin/source/repos/FinalProject/FinalProject/kernel.cu(261): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+C:/Users/mamin/source/repos/FinalProject/FinalProject/kernel.cu(285): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:/Users/mamin/source/repos/FinalProject/FinalProject/kernel.cu(465): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  FinalProject.vcxproj -> C:\Users\mamin\source\repos\FinalProject\x64\Debug\FinalProject.exe
